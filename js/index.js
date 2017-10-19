@@ -12,7 +12,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('闫慧玲|我三三三三|爱是是是|你三三三三|#rectangle|#countdown 3||');
+      S.UI.simulate('闫慧玲|我爱你！！！！！！|#rectangle|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
